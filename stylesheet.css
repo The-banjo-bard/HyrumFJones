@@ -143,6 +143,7 @@ button {
 #about-picture {
   height: 350px;
   padding: 25px;
+  max-width: 30%;
 }
 
 #prof-info {
@@ -208,6 +209,7 @@ button {
 .play-poster {
   height: 500px;
   padding: 50px 0px 50px 0px;
+  max-width: 45%;
 }
 
 #quotes {
