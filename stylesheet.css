@@ -182,6 +182,24 @@ button {
   border-color: gray;
 }
 
+.mini-blog-title {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mini-blog-text {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
 #plays {
   width: 99.8%;
   height: auto;

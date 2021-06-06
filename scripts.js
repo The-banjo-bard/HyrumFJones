@@ -1,15 +1,24 @@
 $( document ).ready(function() {
     let number = $('.blog-post').length;
     console.log(number)
-    let post1 = `post-title-${number}`;
-    let post2 = `post-title-${number - 1}`;
-    let post3 = `post-title-${number - 2}`;
-    let clone1 = $('#' + post1).clone();
-    let clone2 = $('#' + post2).clone();
-    let clone3 = $('#' + post3).clone();
-    $('#mini-blog-post-1').append(clone1);
-    $('#mini-blog-post-2').append(clone2);
-    $('#mini-blog-post-3').append(clone3);
+    let posttitle1 = `post-title-${number}`;
+    let posttitle2 = `post-title-${number - 1}`;
+    let posttitle3 = `post-title-${number - 2}`;
+    let clone1 = $('#' + posttitle1).clone().css('font-size', '15pt');
+    let clone2 = $('#' + posttitle2).clone().css('font-size', '15pt');
+    let clone3 = $('#' + posttitle3).clone().css('font-size', '15pt');
+    $('#mini-blog-1-title').append(clone1);
+    $('#mini-blog-2-title').append(clone2);
+    $('#mini-blog-3-title').append(clone3);
+    let post1 = `post-${number}`;
+    let post2 = `post-${number - 1}`;
+    let post3 = `post-${number - 2}`;
+    let text1 = $('#' + post1).clone().css('font-size', '9pt');
+    let text2 = $('#' + post2).clone().css('font-size', '9pt');
+    let text3 = $('#' + post3).clone().css('font-size', '9pt');
+    $('#mini-blog-text-1').append(text1);
+    $('#mini-blog-text-2').append(text2);
+    $('#mini-blog-text-3').append(text3);
 });
 
 function goHome() {
