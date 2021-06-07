@@ -75,7 +75,7 @@ button {
   flex-grow: 1;
   padding: 0px 5px 0px 5px;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   border: none;
 }
 
@@ -87,13 +87,13 @@ button {
   display: inline-block;
   width: 100%;
   height: 400px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .about-button {
   width: 100%;
   height: 33.33%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   font-size: 15pt;
   border-width: 1pt;
@@ -170,7 +170,7 @@ button {
 #mini-blog-post-container {
   width: 100%;
   height: 300px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: row;
 }
@@ -213,7 +213,7 @@ button {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 1, 1, 0.7);
+  background-color: rgba(0, 1, 1, 0.8);
   border-width: 1pt;
   border-style: solid;
   border-color: #363535;
@@ -242,7 +242,7 @@ button {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 1, 1, 0.7);
+  background-color: rgba(0, 1, 1, 0.8);
   border-width: 1pt;
   border-style: solid;
   border-color: #363535;
@@ -261,7 +261,7 @@ button {
   height: 200px;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 1, 1, 0.7);
+  background-color: rgba(0, 1, 1, 0.8);
   border-width: 1pt;
   border-style: solid;
   border-color: #363535;
@@ -273,7 +273,7 @@ button {
   display: none;
   width: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   border-width: 1pt;
   border-style: solid;
   border-color: #363535;
@@ -307,7 +307,7 @@ button {
   display: none;
   width: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .blog-post {
@@ -344,7 +344,7 @@ button {
   display: none;
   width: 100%;
   height: 400px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -353,7 +353,7 @@ button {
   display: none;
   width: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #contact-info {
