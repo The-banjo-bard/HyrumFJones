@@ -15,6 +15,21 @@ $( document ).ready(function() {
     $('#mini-blog-1-title').append(clone1);
     $('#mini-blog-2-title').append(clone2);
     $('#mini-blog-3-title').append(clone3);
+
+    let imgSrc1 = $('#blog-post-' + id1).find('img').attr('src');
+    let imgSrc2 = $('#blog-post-' + id2).find('img').attr('src');
+    let imgSrc3 = $('#blog-post-' + id3).find('img').attr('src');
+
+    if (imgSrc1 !== undefined) {
+        $('#mini-blog-post-1').css('background-image', 'url(' + imgSrc1 + ')').css('background-size', '100%');
+    }
+    if (imgSrc2 !== undefined) {
+        $('#mini-blog-post-2').css('background-image', 'url(' + imgSrc2 + ')').css('background-size', '100%');
+    }
+    if (imgSrc3 !== undefined) {
+        $('#mini-blog-post-3').css('background-image', 'url(' + imgSrc3 + ')').css('background-size', '100%');
+    }
+
     let post1 = `post-${id1}`;
     let post2 = `post-${id2}`;
     let post3 = `post-${id3}`;

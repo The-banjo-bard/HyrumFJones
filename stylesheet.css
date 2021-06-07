@@ -196,12 +196,22 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.mini-blog-post-background {
+  background-color: rgba(0, 1, 1, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   overflow: hidden;
 }
 
 .mini-blog-text {
-  height: 250px;
-  width: 95%;
+  height: 230px;
+  width: 90%;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -376,9 +386,4 @@ button {
   height: 50px;
   border-radius: 50%;
   padding: 20px;
-}
-
-
-#post-title-3 {
-  color: white;
 }
