@@ -268,7 +268,7 @@ button {
 
 .footer {
   width: 99.8%;
-  height: 200px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 1, 1, 0.8);
